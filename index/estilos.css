@@ -18,12 +18,18 @@ border: 100% solid #f4f2f2;
     /*background-color: blue;*/
 }
 
+.logo {
+    width: 180px;
+    position: absolute;
+    margin-left: 80px;
+}
+
 .navega{
 	width: 98.5%;
-	height: 48px;
+	height: 150px;
 	padding: 0 10px;
-    background: #192c3a;
-    color: #fff;
+    /*background: #192c3a;*/
+    color: black;
 }
 /* Nivel 0 */
 .navega ul{
@@ -36,17 +42,17 @@ border: 100% solid #f4f2f2;
 .navega ul li:hover>ul{
 	display: block;
 }
-.navega ul li{
-	background: #192c3a;		
-}
+/*.navega ul li{
+	background: #192c3a;
+}*/
 .navega>ul>li{
 	display: inline-block;
 }
 .navega ul li a{
 	display: block;
 	text-decoration: none;
-	color: #fff;
-	padding: 15px 5px;
+	color: black;
+	padding: 3px 5px;
 	text-align: center;
 }
 .navega ul li a:hover{
@@ -70,19 +76,19 @@ border: 100% solid #f4f2f2;
 
 .section{
     width: 100%;
-    height: 60%;
-    background-color: rgb(123, 123, 248);
+    height: 65%;
+    /*background-color: rgb(123, 123, 248);*/
 }
 
 .obj{
-    width: 640px;
+    width: 340px;
     height: 100%;
     /*background-color: aqua;*/
     display: inline-block;
 }
 
 .cont{
-    width: 689px;
+    width: 970px;
     height: 100%;
     /*background-color: blueviolet;*/
     display: inline-block;
@@ -96,8 +102,9 @@ border: 100% solid #f4f2f2;
 
 .footer{
     width: 100%;
-    height: 20%;
-    /*background-color: pink;*/
+    height: 9%;
+    background-color: #fff;
+    position: absolute;
 }
 
 .autor{
@@ -111,6 +118,7 @@ border: 100% solid #f4f2f2;
     height: 100%;
     /*background-color: aqua;*/
     display: inline-block;
+    text-align: center;
 }
 
 .mod2{
@@ -144,16 +152,18 @@ border: 100% solid #f4f2f2;
 }
 
 .rec1_1{
-    width: 640px;
-    height: 100%;
+    width: 960px;
+    height: 600px;
     /*background-color: aqua;*/
     display: inline-block;
+    text-align: center;
 }
 
 .rec_ima1_1{
-    width: 689px;
-    height: 100%;
+    width: 340px;
+    height: 600px;
     /*background-color: blueviolet;*/
+    position: absolute;
     display: inline-block;
 }
 
@@ -170,12 +180,7 @@ border: 100% solid #f4f2f2;
     display: inline-block;
 }
 
-.rec2_1{
-    width: 689px;
-    height: 100%;
-    /*background-color: blueviolet;*/
-    display: inline-block;
-}
+
 
 /* recurso 2 */
 
@@ -193,16 +198,18 @@ border: 100% solid #f4f2f2;
 }
 
 .rec2_1{
-    width: 640px;
-    height: 100%;
+    width: 960px;
+    height: 430px;
     /*background-color: aqua;*/
     display: inline-block;
+    text-align: center;
 }
 
 .rec_ima2_1{
-    width: 689px;
-    height: 100%;
+    width: 340px;
+    height: 430px;
     /*background-color: blueviolet;*/
+    position: absolute;
     display: inline-block;
 }
 
@@ -242,16 +249,17 @@ border: 100% solid #f4f2f2;
 }
 
 .con1_1{
-    width: 640px;
-    height: 100%;
+    width: 960px;
+    height: 600px;
     /*background-color: aqua;*/
     display: inline-block;
 }
 
 .con_ima1_1{
-    width: 689px;
-    height: 100%;
+    width: 340px;
+    height: 600px;
     /*background-color: blueviolet;*/
+    position: absolute;
     display: inline-block;
 }
 
